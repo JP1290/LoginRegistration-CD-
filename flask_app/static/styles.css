@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.register{
+    background-color:rgb(35, 35, 35);
+    width: 275px;
+}
+
+.login{
+    background-color:rgb(35, 35, 35);
+    width: 275px;
+}
+
+.login h2{
+    margin: 10px 0 5px 50px;
+}
+
+.register, .login p{
+    color: red;
+}
+
+.register h2, label, input{
+    margin: 10px 0 5px 50px;
+}
+
+.register h2{
+    color:blue;
+}
+
+.login h2{
+    color: darkgreen;
+}
+
+.register label{
+    color: white;
+}
+
+.login label{
+    color: white;
+}
+
+.register form input{
+    display: block;
+}
+
+.login form input{
+    display: block;
+}
+
+.container .register form .button{
+    background-color: blue;
+    color:whitesmoke;
+}
+
+.container .login form .loginbutton{
+    background-color:darkgreen;
+    color:whitesmoke;
+}
